@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">SWOO <br>TECH MART</div>
+            <nav>
+                <ul>
+                    <li><a href="#"><b>Homes</b></a>
+                        <select>
+                            <option>
+                                <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            </option>
+                        </select>
+                    </li>
+                    <li><a href="#"><b>Pages</b></a>
+                        <select>
+                            <option>
+                                <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            </option>
+                        </select>
+                    </li>
+                    <li><a href="#"><b>Products</b></a>
+                    <select>
+                        <option>
+                            <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        </option>
+                    </select>
+                </li>
+                <li><a href="#"><b>Contact</b></a>
+                <select>
+                    <option>
+                        <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    </option>
+                </select>
+            </li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#" class="login">Login / Register</a>
+            <a href="#" class="cart">Cart $1,689.00</a>
+        </div>
+    </div>
+    <div class="sub-navbar">
+        <div class="category-select">
+            <select>
+                <option value="all">All Categories</option>
+            </select>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search anything...">
+            <button>Search</button>
+        </div>
+        <div class="promotions">
+            <span>Free Shipping Over $199</span>
+            <span>30 Days Money Back</span>
+            <span>100% Secure Payment</span>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="breadcrumb">
+        <a href="#">Home</a> / <a href="#">Pages</a> / <span>Login</span>
+    </div>
+    
+    <div class="login-section">
+        <div class="login-image">
+            <img src="login.png" alt="Login Illustration">
+        </div>
+        <div class="login-form">
+            <h2>Welcome Back</h2>
+            <p>Login to continue</p>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Example@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="••••••••" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <p class="signup-link">New User? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
